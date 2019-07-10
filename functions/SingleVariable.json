@@ -1,0 +1,150 @@
+[
+    {
+        "return": "ANY_NUM", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ABS", 
+        "input": [
+            {
+                "type": "ANY_NUM", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SQRT", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "LN", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "LOG", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "EXP", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SIN", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "COS", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "TAN", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ASIN", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ACOS", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ATAN", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ATAN2", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "Y"
+            }, 
+            {
+                "type": "ANY_REAL", 
+                "name": "X"
+            }
+        ]
+    }
+]

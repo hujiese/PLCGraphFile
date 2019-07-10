@@ -1,0 +1,764 @@
+[
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTU", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "INT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTU_INT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "INT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTU_DINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTU_LINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTU_UDINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTU_ULINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTD", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "INT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTD_INT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "INT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTD_DINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTD_LINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTD_UDINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTD_ULINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTUD", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "INT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTUD_INT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "INT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "INT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTUD_DINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "DINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTUD_LINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "LINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTUD_UDINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "UDINT", 
+                "name": "CV"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "CV"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "CTUD_ULINT", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "CD"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "LD"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "PV"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QU"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "QD"
+            }, 
+            {
+                "type": "ULINT", 
+                "name": "CV"
+            }
+        ]
+    }
+]

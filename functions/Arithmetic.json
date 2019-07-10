@@ -1,0 +1,102 @@
+[
+    {
+        "return": "ANY_MAGNITUDE", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "ADD", 
+        "input": [
+            {
+                "type": "ANY_MAGNITUDE", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_NUM", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "MUL", 
+        "input": [
+            {
+                "type": "ANY_NUM", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_MAGNITUDE", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "ANY_MAGNITUDE", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_MAGNITUDE", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_NUM", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "DIV", 
+        "input": [
+            {
+                "type": "ANY_NUM", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_INT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "MOD", 
+        "input": [
+            {
+                "type": "ANY_INT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_REAL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "EXPT", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "MOVE", 
+        "input": [
+            {
+                "type": "ANY", 
+                "name": "IN"
+            }
+        ]
+    }
+]

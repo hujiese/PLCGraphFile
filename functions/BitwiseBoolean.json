@@ -1,0 +1,50 @@
+[
+    {
+        "return": "ANY_BIT", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "AND", 
+        "input": [
+            {
+                "type": "ANY_BIT", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_BIT", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "OR", 
+        "input": [
+            {
+                "type": "ANY_BIT", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_BIT", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "XOR", 
+        "input": [
+            {
+                "type": "ANY_BIT", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_BIT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "NOT", 
+        "input": [
+            {
+                "type": "ANY_BIT", 
+                "name": "IN"
+            }
+        ]
+    }
+]

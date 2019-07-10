@@ -1,0 +1,66 @@
+[
+    {
+        "return": "ANY_BIT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SHL", 
+        "input": [
+            {
+                "type": "ANY_BIT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_BIT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SHR", 
+        "input": [
+            {
+                "type": "ANY_BIT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_BIT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ROL", 
+        "input": [
+            {
+                "type": "ANY_BIT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_BIT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ROR", 
+        "input": [
+            {
+                "type": "ANY_BIT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "IN2"
+            }
+        ]
+    }
+]

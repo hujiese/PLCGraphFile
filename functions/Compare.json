@@ -1,0 +1,78 @@
+[
+    {
+        "return": "BOOL", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "GT", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "GE", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "EQ", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "LE", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "LT", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "NE", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN2"
+            }
+        ]
+    }
+]

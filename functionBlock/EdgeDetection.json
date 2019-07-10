@@ -1,0 +1,36 @@
+[
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "R_TRIC", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CLK"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "F_TRIC", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "CLK"
+            }
+        ]
+    }
+]

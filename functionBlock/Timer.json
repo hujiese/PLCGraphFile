@@ -1,0 +1,77 @@
+[
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "TIME", 
+                "name": "ET"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "TP", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "IN"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "PT"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "TIME", 
+                "name": "ET"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "TON", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "IN"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "PT"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "TIME", 
+                "name": "ET"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "Q"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "TOF", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "IN"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "PT"
+            }
+        ]
+    }
+]

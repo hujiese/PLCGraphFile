@@ -1,0 +1,158 @@
+[
+    {
+        "return": "ANY_INT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "LEN", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_STRING", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "LEFT", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "L"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_STRING", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "RIGHT", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "L"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_STRING", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "MID", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "L"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "P"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_STRING", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "CONCAT", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_STRING", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "INSERT", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_STRING", 
+                "name": "in2"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "P"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_STRING", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "DELETE", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "L"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "P"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_STRING", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "REPLACE", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_STRING", 
+                "name": "IN2"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "L"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "P"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_INT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "REPLACE", 
+        "input": [
+            {
+                "type": "ANY_STRING", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_STRING", 
+                "name": "IN2"
+            }
+        ]
+    }
+]

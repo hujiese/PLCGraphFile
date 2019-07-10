@@ -1,0 +1,86 @@
+[
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q1"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "SR", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "S1"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q1"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "SR", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "SET1"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "RESET"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q1"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "RS", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "S"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R1"
+            }
+        ]
+    }, 
+    {
+        "return": null, 
+        "output": [
+            {
+                "type": "BOOL", 
+                "name": "Q1"
+            }
+        ], 
+        "type": "STDFUNCTION_BLOCK", 
+        "name": "RS", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "SET"
+            }, 
+            {
+                "type": "BOOL", 
+                "name": "R1"
+            }
+        ]
+    }
+]

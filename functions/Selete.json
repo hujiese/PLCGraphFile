@@ -1,0 +1,94 @@
+[
+    {
+        "return": "ANY", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "MOVE", 
+        "input": [
+            {
+                "type": "ANY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SEL", 
+        "input": [
+            {
+                "type": "BOOL", 
+                "name": "G"
+            }, 
+            {
+                "type": "ANY", 
+                "name": "IN0"
+            }, 
+            {
+                "type": "ANY", 
+                "name": "IN1"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_ELEMENTARY", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "MAX", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_ELEMENTARY", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "MIN", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_ELEMENTARY", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "LIMIT", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }, 
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "MN"
+            }, 
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "MX"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_ELEMENTARY", 
+        "output": [], 
+        "type": "INFUNCTION", 
+        "name": "MUX", 
+        "input": [
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "K"
+            }, 
+            {
+                "type": "ANY_ELEMENTARY", 
+                "name": "IN"
+            }
+        ]
+    }
+]

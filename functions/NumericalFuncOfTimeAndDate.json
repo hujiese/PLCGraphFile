@@ -1,0 +1,706 @@
+[
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD", 
+        "input": [
+            {
+                "type": "TIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD", 
+        "input": [
+            {
+                "type": "LTIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD_TIME", 
+        "input": [
+            {
+                "type": "TIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD_LTIME", 
+        "input": [
+            {
+                "type": "LTIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD", 
+        "input": [
+            {
+                "type": "TOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD", 
+        "input": [
+            {
+                "type": "LTOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD_TOD_TIME", 
+        "input": [
+            {
+                "type": "TOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD_LTOD_LTIME", 
+        "input": [
+            {
+                "type": "LTOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "DT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD", 
+        "input": [
+            {
+                "type": "DT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LDT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD", 
+        "input": [
+            {
+                "type": "LDT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "DT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD_DT_TIME", 
+        "input": [
+            {
+                "type": "DT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LDT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "ADD_LDT_LTIME", 
+        "input": [
+            {
+                "type": "LDT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "TIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "LTIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_TIME", 
+        "input": [
+            {
+                "type": "TIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_LTIME", 
+        "input": [
+            {
+                "type": "LTIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "DATE", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "DATE", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "LDATE", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LDATE", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_DATE_DATE", 
+        "input": [
+            {
+                "type": "DATE", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "DATE", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_LDATE_LDATE", 
+        "input": [
+            {
+                "type": "LDATE", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LDATE", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "TOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "LTOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_TOD_TIME", 
+        "input": [
+            {
+                "type": "TOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_LTOD_LTIME", 
+        "input": [
+            {
+                "type": "LTOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "TOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TOD", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "LTOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTOD", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_TOD_TOD", 
+        "input": [
+            {
+                "type": "TOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TOD", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_LTOD_LTOD", 
+        "input": [
+            {
+                "type": "LTOD", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTOD", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "DT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "DT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LDT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "LDT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "DT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_DT_TIME", 
+        "input": [
+            {
+                "type": "DT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LDT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_LDT_LTIME", 
+        "input": [
+            {
+                "type": "LDT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTIME", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "DT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "DT", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB", 
+        "input": [
+            {
+                "type": "LDT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LDT", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_DT_DT", 
+        "input": [
+            {
+                "type": "DT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "DT", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "SUB_LDT_LDT", 
+        "input": [
+            {
+                "type": "LDT", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LDT", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "MUL", 
+        "input": [
+            {
+                "type": "TIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "MUL", 
+        "input": [
+            {
+                "type": "LTIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "MUL_TIME", 
+        "input": [
+            {
+                "type": "TIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "MUL_LTIME", 
+        "input": [
+            {
+                "type": "LTIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "DIV", 
+        "input": [
+            {
+                "type": "TIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "DIV", 
+        "input": [
+            {
+                "type": "LTIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "TIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "DIV_TIME", 
+        "input": [
+            {
+                "type": "TIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LTIME", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "DIV_LTIME", 
+        "input": [
+            {
+                "type": "LTIME", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "ANY_NUM", 
+                "name": "IN2"
+            }
+        ]
+    }
+]

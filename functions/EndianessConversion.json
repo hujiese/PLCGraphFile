@@ -1,0 +1,50 @@
+[
+    {
+        "return": "ANY", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "TO_BIG_ENDIAN", 
+        "input": [
+            {
+                "type": "ANY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "TO_LITTLE_ENDIAN", 
+        "input": [
+            {
+                "type": "ANY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "FROM_BIG_ENDIAN", 
+        "input": [
+            {
+                "type": "ANY", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "FROM_LITTLE_ENDIAN", 
+        "input": [
+            {
+                "type": "ANY", 
+                "name": "IN"
+            }
+        ]
+    }
+]

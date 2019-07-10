@@ -1,0 +1,351 @@
+[
+    {
+        "return": "DT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "CONCAT_DATE_TOD", 
+        "input": [
+            {
+                "type": "DATE", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "TOD", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "LDT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "CONCAT_DATE_LTOD", 
+        "input": [
+            {
+                "type": "DATE", 
+                "name": "IN1"
+            }, 
+            {
+                "type": "LTOD", 
+                "name": "IN2"
+            }
+        ]
+    }, 
+    {
+        "return": "DATE", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "CONCAT_DATE", 
+        "input": [
+            {
+                "type": "ANY_INT", 
+                "name": "YEAR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MONTH"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "DAY"
+            }
+        ]
+    }, 
+    {
+        "return": "TOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "CONCAT_TOD", 
+        "input": [
+            {
+                "type": "ANY_INT", 
+                "name": "HOUR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MINUTE"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "SECOND"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MILLISECOND"
+            }
+        ]
+    }, 
+    {
+        "return": "LTOD", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "CONCAT_LTOD", 
+        "input": [
+            {
+                "type": "ANY_INT", 
+                "name": "HOUR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MINUTE"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "SECOND"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MILLISECOND"
+            }
+        ]
+    }, 
+    {
+        "return": "DT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "CONCAT_DT", 
+        "input": [
+            {
+                "type": "ANY_INT", 
+                "name": "YEAR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MONTH"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "DAY"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "HOUR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MINUTE"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "SECOND"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MILLISECOND"
+            }
+        ]
+    }, 
+    {
+        "return": "LDT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "CONCAT_LDT", 
+        "input": [
+            {
+                "type": "ANY_INT", 
+                "name": "YEAR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MONTH"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "DAY"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "HOUR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MINUTE"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "SECOND"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MILLISECOND"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [
+            {
+                "type": "ANY_INT", 
+                "name": "YEAR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MONTH"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "DAY"
+            }
+        ], 
+        "type": "STDFUNCTION", 
+        "name": "SPLIT_DATE", 
+        "input": [
+            {
+                "type": "DATE", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [
+            {
+                "type": "ANY_INT", 
+                "name": "HOUR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MINUTE"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "SECOND"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MILLISECOND"
+            }
+        ], 
+        "type": "STDFUNCTION", 
+        "name": "SPLIT_TOD", 
+        "input": [
+            {
+                "type": "TOD", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [
+            {
+                "type": "ANY_INT", 
+                "name": "HOUR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MINUTE"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "SECOND"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MILLISECOND"
+            }
+        ], 
+        "type": "STDFUNCTION", 
+        "name": "SPLIT_LTOD", 
+        "input": [
+            {
+                "type": "LTOD", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [
+            {
+                "type": "ANY_INT", 
+                "name": "YEAR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MONTH"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "DAY"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "HOUR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MINUTE"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "SECOND"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MILLISECOND"
+            }
+        ], 
+        "type": "STDFUNCTION", 
+        "name": "SPLIT_DT", 
+        "input": [
+            {
+                "type": "DT", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [
+            {
+                "type": "ANY_INT", 
+                "name": "YEAR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MONTH"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "DAY"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "HOUR"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MINUTE"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "SECOND"
+            }, 
+            {
+                "type": "ANY_INT", 
+                "name": "MILLISECOND"
+            }
+        ], 
+        "type": "STDFUNCTION", 
+        "name": "SPLIT_LDT", 
+        "input": [
+            {
+                "type": "LDT", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "ANY_INT", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "DAY_OF_WEEK", 
+        "input": [
+            {
+                "type": "DATE", 
+                "name": "IN"
+            }
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "return": "BOOL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "IS_VALID", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }, 
+    {
+        "return": "BOOL", 
+        "output": [], 
+        "type": "STDFUNCTION", 
+        "name": "IS_VALID_BCD", 
+        "input": [
+            {
+                "type": "ANY_REAL", 
+                "name": "IN"
+            }
+        ]
+    }
+]
